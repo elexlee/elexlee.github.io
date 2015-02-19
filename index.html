@@ -1,41 +1,122 @@
 <!DOCTYPE html>
 <html lang='en'>
+	<head>
+		<title>Elex Lee</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+	</head>
 
-<head>
-	<title>Elex Lee</title>
-	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-	<div id="page">
-		<div id="menu">
-			<ul>
-				<li><a href="index.html">HOME</a></li>
-				<li><a href="cs.html">CS</a></li>
-				<li><a href="music.html">MUSIC</a></li>
-				<li><a href="blog.html">BLOG</a></li>
-				<li><a href="bio.html">BIO<a/></li>
-			</ul>
+	<body>
+		<!--Home Page-->
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav" id="topbar">
+						<li class="active"><a data-scroll href="#home">HOME</a></li>
+						<li ><a data-scroll href="#cs">CS</a></li>
+						<li ><a data-scroll href="#music">MUSIC</a></li>
+						<li ><a data-scroll href="#blog">BLOG</a></li>
+						<li ><a data-scroll href="#bioanchor">BIO</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		<div id="horizon">
-			<img src="images/horizon.jpg" alt="horizon" height="350" width="960">
-			<h1>ELEX LEE</h1>
+		<div class="container-fluid" id="home">
+			<img src="images/horizon.jpg" class="img-responsive" alt="Responsive image" id="horizon" >
 		</div>
-		<footer>
-			<ul>
-				<li><a href="https://www.facebook.com/leefinale">
-				<img src="icons/facebook.png" alt="facebook" height="32" width="32">
-				</a></li>
-				<li><a href="https://twitter.com/leefinale">
-				<img src="icons/twitter.png" alt="twitter" height="32" width="32">
-				</a></li>
-				<li><a href="https://www.linkedin.com/pub/elex-lee/aa/868/bb5">
-				<img src="icons/linkedin.png" alt="linkedin" height="32" width="32">
-				</a></li>					
-			<ul>
-			<h6>&copy; ELEXLEE 2015</h6>
-		</footer>
-	</div>
-</body>
+		<div class="navbar navbar-inverse navbar-fixed-bottom">
+			<div class="container-fluid">
+				<div class="nav navbar-nav" id="botbar">
+					<p class="navbar-text" id="bottext">&copy; ELE<a href="#">X</a>LEE 2015</p>
+				</div>
+			</div>
+		</div>
 
+		<hr></hr>
+
+		<!--CS page-->
+		<div class="container-fluid" id="cs">
+			<div class="col-md-3"></div>
+			<div class="col-md-6" id="text">
+				<p class="header">PROJECTS</p>
+				<p>	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+
+		<hr></hr>
+
+		<!--Music page-->
+		<div class="container-fluid" id="music">
+			<div class="col-md-3"></div>
+			<div class="col-md-6" id="text">
+				<p class="header">PORTFOLIO</p>
+				<p>	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+
+		<hr></hr>
+
+		<!--Blog page-->
+		<div class="container-fluid" id="blog">
+			<div class="col-md-3"></div>
+			<div class="col-md-6" id="text">
+				<p class="header">BLOG</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+
+		<hr></hr>
+
+		<!--Bio page-->
+		<div class="container-fluid" id="bio">
+			<div class="col-md-3"></div>
+			<div class="col-md-6" id="text">
+				<p class="header">ABOUT ME</p> 
+				<p>I am a graduate of UC Davis with B.A. in Music. I enjoy traveling, various categories of film and music, and trying different outdoor activities.
+				In my spare time, I like to improve and learn more about the many things I hold interests in.</p>
+				<br>
+				<p class="header">GET IN TOUCH</p>
+				<p>Looking for help with a project pertaining to music or cs?<p>
+				<p>You can contact me at 
+				<a href="mailto:leefinale@yahoo.com" class="email">leefinale@yahoo.com</a> 
+				or look me up on any of the following social networks:</p>
+				<div class="col-md-3" id="social">
+					<ul id="bioanchor">
+						<li><a href="https://www.facebook.com/leefinale">
+						<img src="icons/facebook.png" alt="facebook" height="32" width="32">
+						</a></li>
+						<li><a href="https://twitter.com/leefinale">
+						<img src="icons/twitter.png" alt="twitter" height="32" width="32">
+						</a></li>
+						<li><a href="https://www.linkedin.com/pub/elex-lee/aa/868/bb5">
+						<img src="icons/linkedin.png" alt="linkedin" height="32" width="32">
+						</a></li>					
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+
+		<script src id ="js/smooth-scroll.js"></script>
+		<script>
+			smoothScroll.init({
+				speed: 1000,
+				easing: 'easeInOutCubic',
+				offset: 0,
+				updateURL: true,
+				callbackBefore: function ( toggle, anchor ) {},
+				callbackAfter: function ( toggle, anchor ) {}
+			});
+		</script>
+		<script src id = "bio"="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	</body>
 </html>
